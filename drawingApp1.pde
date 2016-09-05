@@ -16,9 +16,6 @@ void drawLine(){
     if (mousePressed == true) {
       stroke(0);
       strokeWeight(3);
-    } else {
-      stroke(255);
-      strokeWeight(3);
     }
     line(mouseX, mouseY, pmouseX, pmouseY);
   }
