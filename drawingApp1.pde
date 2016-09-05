@@ -7,16 +7,18 @@ background(#FFFFFF); // white canvas
 }
 
 void draw(){
-  drawBall();
+  drawLine();
 
 }
 
-void drawBall(){
+void drawLine(){
   noStroke();
     if (mousePressed == true) {
-      fill(0);
+      stroke(0);
+      strokeWeight(3);
     } else {
-      fill(255);
+      stroke(255);
+      strokeWeight(3);
     }
-    ellipse(pmouseX, pmouseY, 20, 20); // mouseX vs pmouseX ?? 
+    line(mouseX, mouseY, pmouseX, pmouseY);
   }
