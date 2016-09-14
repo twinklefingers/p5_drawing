@@ -1,6 +1,3 @@
-Began by watching a youtube video on how to make a basic drawing app with processing:
-https://www.youtube.com/watch?v=NYdYbC-iE0g
+This is a drawing app I made while working on solo projects at Prime. It is a kntting app prototype in perpetual alpha-state. 
 
-Expanded upon. 
-
-![alt tag](drawingApp1.png)
+It sparked this project: https://github.com/twinklefingers/knitting_app_v1
